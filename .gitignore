@@ -3,7 +3,9 @@ node_modules
 
 platforms/android/**/*
 !platforms/BUILD
-!platforms/android/BUILD
+!platforms/android/BUILD.bazel
 !platforms/android/nativescript.bzl
 !platforms/android/mdg.sh
 !platforms/android/sbg.sh
+!ns-bazel-plugin/bazel-*
+
